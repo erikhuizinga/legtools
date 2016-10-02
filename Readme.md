@@ -63,7 +63,7 @@ legtools.append(lh, {'cosine', 'tangent'})
 ![append2](../readme/img/append2.png)
 
 <a name="permute"></a>
-### `legtools.`*`permute`*`(legendhandle, newOrder)`
+### `legtools.`*`permute`*`(lh, order)`
 #### Syntax
 `legtools.permute(lh, order)` rarranges the entries of the
 Legend object specified by `lh` in the order specified by
@@ -89,7 +89,7 @@ legtools.permute(lh, [3, 1, 2])
 ![permute](../readme/img/permute.png)
 
 <a name="remove"></a>
-### `legtools.`*`remove`*`(legendhandle, removeidx)`
+### `legtools.`*`remove`*`(lh, remidx)`
 #### Syntax            
 `legtools.remove(lhm, remidx)` removes the legend entries from
 the legend specified in `lh` at the locations specified by
@@ -116,7 +116,7 @@ legtools.remove(lh, [3, 1])
 ![remove](../readme/img/remove.png)
 
 <a name="adddummy"></a>
-### `legtools.`*`adddummy`*`(legendhandle, newStrings, plotParams)`
+### `legtools.`*`adddummy`*`(lh, newStrings, plotParams)`
 #### Syntax
 `legtools.adddummy(lh, newStrings)` appends strings, specified
 by `newStrings`, to the Legend object, specified by `lh`, for
